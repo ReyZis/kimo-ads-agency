@@ -279,8 +279,8 @@ body {
 .border-first-button a {
     display: inline-block !important;
     padding: 10px 20px !important;
-    color: #fa65b1 !important;
-    border: 1px solid #fa65b1 !important;
+    color: #1190cb !important;
+    border: 1px solid #1190cb !important;
     border-radius: 23px;
     font-weight: 500 !important;
     letter-spacing: 0.3px !important;
@@ -288,7 +288,7 @@ body {
 }
 
 .border-first-button a:hover {
-    background-color: #fa65b1;
+    background-color: #1190cb;
     color: #fff !important;
 }
 
@@ -597,12 +597,12 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-    color: #fa65b1 !important;
+    color: #1190cb !important;
 }
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-    color: #fa65b1 !important;
+    color: #1190cb !important;
     opacity: 1;
 }
 
@@ -1095,7 +1095,7 @@ Banner Style
     text-transform: capitalize;
     font-size: 20px;
     font-weight: 700;
-    color: #fa65b1;
+    color: #1190cb;
     margin-bottom: 15px;
     text-transform: uppercase;
 }
@@ -1199,7 +1199,7 @@ About Style
 }
 
 .first-skill-item .progress .progress-bar {
-    border-color: #fa65b1;
+    border-color: #1190cb;
 }
 
 .second-skill-item .progress .progress-bar {
@@ -1207,7 +1207,7 @@ About Style
 }
 
 .third-skill-item .progress .progress-bar {
-    border-color: #f58b56;
+    border-color: #000000;
 }
 
 .progress .progress-left .progress-bar {
@@ -1543,7 +1543,7 @@ Services Style
 .services .left-text h4 {
     font-size: 20px;
     font-weight: 700;
-    color: #fa65b1 !important;
+    color: #1190cb !important;
 }
 
 .services .left-text p {
@@ -2099,7 +2099,8 @@ Footer Style
 */
 
 footer {
-    background-image: url(../images/footer-bg.jpg);
+    /* background-image: url(../images/footer-bg.jpg); */
+    background-color: #094a68;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
