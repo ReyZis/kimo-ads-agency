@@ -1930,6 +1930,49 @@ pricing
     margin-bottom: 80px;
 }
 
+.my-card {
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
+    border-radius: 23px;
+    padding: 30px;
+    margin: 0px 20px 50px 20px;
+}
+
+.card-head {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 35px;
+    margin-bottom: 25px;
+    color: #1190cb;
+}
+
+.card-head span {
+    background-color: #726ae3;
+    color: #fff;
+    padding: 0px 5px;
+    border-radius: 5px;
+}
+
+.card-feature {
+    margin: 10px auto;
+    padding: 5px;
+}
+
+.card-feature .icon-on {
+    border-radius: 50px;
+    color: green;
+    font-size: 15px;
+    padding: 5px;
+    background-color: #30b83048;
+}
+
+.card-feature .icon-off {
+    border-radius: 50px;
+    font-size: 18px;
+    padding: 3px 6px;
+    background-color: #fa4b4b48;
+    color: red;
+}
+
 /* 
 ---------------------------------------------
 contact
