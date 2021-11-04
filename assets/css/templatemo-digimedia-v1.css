@@ -1445,7 +1445,6 @@ Services Style
 .services .icon img {
     margin-bottom: 10px;
     max-width: 60px;
-    min-width: 60px;
 }
 
 .services .naccs .menu {
@@ -1933,8 +1932,8 @@ pricing
 .my-card {
     box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
     border-radius: 23px;
-    padding: 30px;
-    margin: 0px 20px 50px 20px;
+    padding: 30px 15px;
+    margin: 0px auto 50px auto;
 }
 
 .card-head {
@@ -2031,10 +2030,15 @@ form#contact {
     text-align: center;
 }
 
+form#contact #map {
+    height: 100%;
+    min-height: 600px;
+}
+
 form#contact #map iframe {
+    height: 100%;
     border-top-left-radius: 23px;
     border-bottom-left-radius: 23px;
-    margin-bottom: -7px;
     position: relative;
     z-index: 2;
 }
@@ -2218,6 +2222,16 @@ responsive
         margin-right: 0px;
         margin-bottom: 45px;
     }
+    .about-right-content .section-heading {
+        text-align: center;
+        margin-bottom: 80px;
+    }
+    .about-right-content p {
+        text-align: center;
+    }
+    .about .line-dec {
+        margin: 0 auto;
+    }
     .services .naccs .menu div {
         font-size: 15px;
         font-weight: 500;
@@ -2249,6 +2263,9 @@ responsive
     }
     form#contact {
         padding: 45px;
+    }
+    form#contact #map iframe {
+        border-radius: 23px;
     }
 }
 
