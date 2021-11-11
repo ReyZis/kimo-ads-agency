@@ -525,7 +525,7 @@ header
 }
 
 .header-area .main-nav .logo img {
-    width: 150px;
+    width: 125px;
 }
 
 .header-area .main-nav .logo {
@@ -1954,6 +1954,7 @@ pricing
 .card-feature {
     margin: 10px auto;
     padding: 5px;
+    text-transform: capitalize;
 }
 
 .card-feature .icon-on {
@@ -2048,14 +2049,18 @@ form#contact #map iframe {
 }
 
 .fill-form .info-post {
-    margin-bottom: 20px;
+    height: 100%;
 }
 
 .fill-form .icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     text-align: center;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
     border-radius: 23px;
     padding: 25px 15px;
+    height: 100%;
 }
 
 .fill-form .icon img {
@@ -2266,6 +2271,10 @@ responsive
     }
     form#contact #map iframe {
         border-radius: 23px;
+    }
+    .fill-form .info-post {
+        height: auto;
+        margin-bottom: 20px;
     }
 }
 
